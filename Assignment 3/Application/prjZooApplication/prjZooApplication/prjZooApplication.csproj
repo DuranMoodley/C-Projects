@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C7C36C7-2623-44CB-9AD4-FB6F2F273F52}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prjZooApplication</RootNamespace>
+    <AssemblyName>prjZooApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Birds.cs" />
+    <Compile Include="Elephant.cs" />
+    <Compile Include="FetchData.cs" />
+    <Compile Include="frmAddBirds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddBirds.Designer.cs">
+      <DependentUpon>frmAddBirds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddElephant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddElephant.Designer.cs">
+      <DependentUpon>frmAddElephant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddLion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddLion.Designer.cs">
+      <DependentUpon>frmAddLion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewZooKeeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewZooKeeper.Designer.cs">
+      <DependentUpon>frmAddNewZooKeeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectCategory.Designer.cs">
+      <DependentUpon>frmSelectCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFood.cs" />
+    <Compile Include="frmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDelete.Designer.cs">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.cs">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lion.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveRecords.cs" />
+    <Compile Include="SpeechOutput.cs" />
+    <Compile Include="Validation.cs" />
+    <EmbeddedResource Include="frmAddBirds.resx">
+      <DependentUpon>frmAddBirds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddElephant.resx">
+      <DependentUpon>frmAddElephant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddLion.resx">
+      <DependentUpon>frmAddLion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewZooKeeper.resx">
+      <DependentUpon>frmAddNewZooKeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDelete.resx">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectCategory.resx">
+      <DependentUpon>frmSelectCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

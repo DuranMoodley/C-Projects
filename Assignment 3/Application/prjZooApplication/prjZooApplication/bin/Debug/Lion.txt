@@ -1,0 +1,6 @@
+Derek,3,Male,3,722169L,white,rough,20,Yes,Meat,60,11:00am,15:30pm,21:00pm,
+Mo,3,Male,20,471188L,white,rough,2,Yes,Meat,60,11:00am,17:30pm,23:00pm,
+John,2,Male,20,575185L,whiter,smooth,2,Yes,Meat,60,11:00am,12:30pm,21:00pm,
+Thandi,2,Female,20,600188L,white,rought,2,Yes,Meat,60,11:00am,15:30pm,21:00pm,
+erfer,2,Male,20,356215L,white,red,2,Yes,Meat,60,11:00am,17:30pm,21:00pm,
+sdw,2,Male,2,980215L,w,ro,2,Yes,Meat,60,11:00am,15:30pm,23:00pm
