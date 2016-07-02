@@ -1,0 +1,39 @@
+C:\Users\Duran\Desktop\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+C:\Users\Duran\Desktop\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe
+C:\Users\Duran\Desktop\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+C:\Users\Duran\Desktop\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+E:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+E:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+E:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+Z:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+Z:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+Z:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+Z:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe
+Z:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.pdb
+Z:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.csprojResolveAssemblyReference.cache
+E:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe
+E:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.csprojResolveAssemblyReference.cache
+E:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.csprojResolveAssemblyReference.cache
+H:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+H:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+H:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+H:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe
+H:\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.pdb
+H:\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.csprojResolveAssemblyReference.cache
+C:\Users\Duran\Desktop\Duran Moodley,13016335\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+C:\Users\Duran\Desktop\Duran Moodley,13016335\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+C:\Users\Duran\Desktop\Duran Moodley,13016335\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\Duran Moodley,13016335\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe
+C:\Users\Duran\Desktop\Duran Moodley,13016335\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\Duran Moodley,13016335\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.csprojResolveAssemblyReference.cache
+E:\Duran Moodley,13016335\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+E:\Duran Moodley,13016335\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+E:\Duran Moodley,13016335\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\POE PROG6211-13016335\Assignment 1\Application\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe.config
+C:\Users\Duran\Desktop\POE PROG6211-13016335\Assignment 1\Application\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.exe
+C:\Users\Duran\Desktop\POE PROG6211-13016335\Assignment 1\Application\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\POE PROG6211-13016335\Assignment 1\Application\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.exe
+C:\Users\Duran\Desktop\POE PROG6211-13016335\Assignment 1\Application\prjDvdShop\prjDvdShop\bin\Debug\prjDvdShop.pdb
+C:\Users\Duran\Desktop\POE PROG6211-13016335\Assignment 1\Application\prjDvdShop\prjDvdShop\obj\Debug\prjDvdShop.csprojResolveAssemblyReference.cache
