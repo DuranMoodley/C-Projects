@@ -1,0 +1,113 @@
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csprojResolveAssemblyReference.cache
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPainting.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPaintingContinued.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmDeletePainting.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmMenu.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSearchPainting.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdateOwner.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdatePainting.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.Properties.Resources.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csproj.GenerateResource.Cache
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmPaintingReport.resources
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.cache
+C:\Users\Duran\Desktop\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.compiled
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.pdb
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPainting.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmDeletePainting.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmMenu.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmPaintingReport.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSearchPainting.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdateOwner.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdatePainting.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.Properties.Resources.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csproj.GenerateResource.Cache
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.cache
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.compiled
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csprojResolveAssemblyReference.cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPaintingContinued.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmDeletePainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmMenu.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmPaintingReport.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSearchPainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdateOwner.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdatePainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.Properties.Resources.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csproj.GenerateResource.Cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.compiled
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.pdb
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csprojResolveAssemblyReference.cache
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPainting.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPaintingContinued.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmDeletePainting.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmMenu.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmPaintingReport.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSearchPainting.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdateOwner.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdatePainting.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.Properties.Resources.resources
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csproj.GenerateResource.Cache
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.cache
+Z:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.compiled
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddArtist.resources
+I:\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csprojResolveAssemblyReference.cache
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPainting.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddArtist.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmDeletePainting.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmMenu.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmPaintingReport.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSearchPainting.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdateOwner.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdatePainting.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.Properties.Resources.resources
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csproj.GenerateResource.Cache
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.cache
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.compiled
+C:\Users\13016335\Desktop\13016335 Assignment 3 PROG6212\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csprojResolveAssemblyReference.cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.pdb
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csprojResolveAssemblyReference.cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddPainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmAddArtist.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmDeletePainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmMenu.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmPaintingReport.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSearchPainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdateOwner.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmUpdatePainting.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.Properties.Resources.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.csproj.GenerateResource.Cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.cache
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\RdlCompile.compiled
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmSplashScreen.resources
+C:\Users\Duran\Desktop\New folder\Duran Stuff\PROG SEMESTER 2\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.frmArtistReport.resources
+I:\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\bin\Debug\prjDurbanArtGalleryApp.exe.config
+I:\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.exe
+I:\POE PROG6212-13016335\Assignment 3\Application\prjDurbanArtGalleryApp\prjDurbanArtGalleryApp\obj\Debug\prjDurbanArtGalleryApp.pdb

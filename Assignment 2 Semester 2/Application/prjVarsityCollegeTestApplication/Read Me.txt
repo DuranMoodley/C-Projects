@@ -1,0 +1,4 @@
+Please Restore the backup database before running the program
+--------------------------------------------------------------
+To Access to Back End enter 49293 in the login form
+To take the Test enter any 8 digit number.

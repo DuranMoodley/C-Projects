@@ -1,0 +1,45 @@
+CREATE TABLE Paintings (
+PaintingID NVARCHAR(8) PRIMARY KEY,
+PaintingName VARCHAR(30) NOT NULL,
+CostPrice MONEY NOT NULL,
+PaintingStatus VARCHAR(15) NOT NULL,
+PaintingSection CHAR(2) NOT NULL)
+
+CREATE TABLE Owner(
+OwnerID BIGINT,
+OwnerName VARCHAR(30) NOT NULL,
+OwnerSurname VARCHAR(30) NOT NULL,
+OwnerCellNumber VARCHAR(10) NOT NULL,
+PaintingID NVARCHAR(8) FOREIGN KEY REFERENCES Paintings(PaintingID) NOT NULL,
+PRIMARY KEY (OwnerID,PaintingID))
+
+INSERT INTO Paintings (PaintingID,PaintingName,CostPrice,PaintingStatus,PaintingSection)
+VALUES 
+('AE45678','Autumn Landscape',500,'Available', 'B'),
+('BE67676','Almond Tree in blossom',1500,'Sold', 'A'),
+('HE17171','Child with Orange',5000,'Available','D'),
+('VE12345','Cart with Black Ox',1000,'Sold','C'),
+('DE89765','Bulb Fields',7000,'Available','D'),
+('RE65390','Cottage',8000,'Sold','A'),
+('FE85839','Basket of Apples',6700,'Available','A'),
+('EE85288','Sandwich',8700,'Available','A'),
+('ZE88929','The House',600,'Available','B'),
+('RE83728','Fruit Basket',600,'Available','D'),
+('DE82828','Mother',700,'Available','A'),
+('FE28282','Cake',700,'Available','A'),
+('FU32I93','Paper Black',6700,'Available','A');
+
+
+INSERT INTO Owner(OwnerID,OwnerName,OwnerSurname,OwnerCellNumber,PaintingID)
+VALUES
+(98765432156,'George','Dawson',4567893452,'AE45678'),
+(98712345761,'Mathew','Smith',0318976514,'BE67676'),
+(87345238392,'Derek','Anderson',0713679024,'HE17171'),
+(99876782832,'Carlo','Angelo',0337897629,'DE89765'),
+(77890935683,'Damien','Augustus',0313038976,'RE65390'),
+(98765432156,'George','Dawson',4567893452,'RE65390'),
+(87345238392,'Derek','Anderson',0713679024,'FE85839'),
+(99876782832,'Carlo','Angelo',0337897629,'FU32I93'),
+(77890935683,'Damien','Augustus',0313038976,'FE28282'),
+(77282832828,'Candice','Moodley',0313033826,'ZE88929');
+
