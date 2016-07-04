@@ -1,0 +1,16 @@
+These are some of the things that I change when doing new forms. 
+Look at previous forms I've created to notice. 
+This is so that we dont get other forms created differently that might confuse others in the forms.
+
+Name
+BackColor
+ControlBox
+Cursor
+FormBorderStyle
+KeyPreview
+Size
+StartPosition
+Text
+
+
+THIS IS THE FINAL VERSION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1

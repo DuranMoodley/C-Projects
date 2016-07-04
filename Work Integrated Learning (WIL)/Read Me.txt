@@ -1,0 +1,44 @@
+Please Use the Back up database File Instead of the Script File (TruckingCompany.bak)
+--------------------------------------------------------------------------------------
+Logins that can be used 
+ Office Manager - 		Username : kal      ;  Password :  OF52675 
+ Vehicle Administrator -        Username : kel      ;  Password :  VE15747
+ Trip Manager	-		Username : dan      ;  Password :  TR21763
+ Timesheet Manager - 		Username : maggaret ;  Password :  TI58908
+ Service Manager - 		Username : sandy    ;  Password :  SE21865
+ Driver - 			Username : Joshua   ;  Password :  DR85940
+ Mechanic - 			Username : Dave     ;  Password :  ME10343
+
+Please Note : The Office Manager is the only Employer to have Full Access to the System.
+--------------------------------------------------------------------------------------
+To View Sample Data for Reports 
+
+Timesheet Report 
+	Mechanic Daily Hours worked : Mechanic ID : 49382039483  ; Date: 10 November 2015
+	Mechanic Monthly Hours worked Mechanic ID : 49382039483  ; Month : November  2015
+        
+	Driver Daily Hours Worked   :   Driver ID   : 90391111920 ; Date : 10 October 2015
+        Driver Monthly Hours Worked :   Driver ID   : 90391111920 ; Month : October 2015
+
+Vehicle Status Report 
+	No Dates Required 
+
+Service Reports 
+	Service Appointment List Daily  : 12 December 2015
+	Service Appointment List weekly : 5 December - 13 December 2015
+        
+        Vehicle Service Completed Daily   : 12 April 2015
+        Vehicle Service Completed Monthly : April 2015
+	Vehicle Service Completed weekly  : 1 - 12 April 2015
+	Vehicle Service Complete Yearly   : 2015
+        
+	Specific Service Completed : 491132 or 183242
+
+Trip Reports 
+	Planned Trip Report Daily : 11 October 2015
+	Planned Trip Report weekly : 1- 12 October 2015
+
+	Completed Trip Report Daily : 10 October 2015
+	Completed Trip Report Monthly : August 2015
+	Completed Trip Report Weekly : 8 - 15 August 2015
+--------------------------------------------------------------------------------------

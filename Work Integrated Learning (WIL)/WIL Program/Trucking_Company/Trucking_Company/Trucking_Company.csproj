@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28D7A09B-A0A0-4C11-AB8D-DF64033F14F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trucking_Company</RootNamespace>
+    <AssemblyName>Trucking_Company</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Duran\Desktop\WIL Files\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>12D346D88B9997AF50A7A9C69C393C7135C54828</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Trucking_Company_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsCompletedDailyTrip.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCompletedDailyTrip.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDailyServiceAppointmentList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDailyServiceAppointmentList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDailyVehicleServiceCompleted.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDailyVehicleServiceCompleted.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMonthlyCompletedVehicleService.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMonthlyCompletedVehicleService.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMonthlyTrip.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMonthlyTrip.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsService.cs">
+      <DependentUpon>dsService.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsService.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsService.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsServiceCompletedYearly.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsServiceCompletedYearly.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsServiceJobSheet.cs">
+      <DependentUpon>dsServiceJobSheet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsServiceJobSheet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsServiceJobSheet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSpecificService.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSpecificService.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTimesheet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTimesheet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTrip.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTrip.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsVehicle.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVehicle.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsVehicleServiceCompletedWeekly.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVehicleServiceCompletedWeekly.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWeeklyServiceAppointmentList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWeeklyServiceAppointmentList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="FrmAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddEmployee.Designer.cs">
+      <DependentUpon>FrmAddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeHoursWorked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeHoursWorked.Designer.cs">
+      <DependentUpon>FrmEmployeeHoursWorked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddService.designer.cs">
+      <DependentUpon>FrmAddService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddTrip.Designer.cs">
+      <DependentUpon>FrmAddTrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeactivateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeactivateEmployee.Designer.cs">
+      <DependentUpon>FrmDeactivateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyPlannedTripReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyPlannedTripReport.designer.cs">
+      <DependentUpon>FrmDailyPlannedTripReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyServiceAppointmentListReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyServiceAppointmentListReport.designer.cs">
+      <DependentUpon>FrmDailyServiceAppointmentListReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyCompletedTripReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyCompletedTripReport.Designer.cs">
+      <DependentUpon>FrmDailyCompletedTripReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyCompletedServiceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyCompletedServiceReport.designer.cs">
+      <DependentUpon>FrmDailyCompletedServiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyMechanicTimesheetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyMechanicTimesheetReport.designer.cs">
+      <DependentUpon>FrmDailyMechanicTimesheetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDailyDriverTimsheetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDailyDriverTimsheetReport.designer.cs">
+      <DependentUpon>FrmDailyDriverTimsheetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthlyDriverTimesheetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthlyDriverTimesheetReport.designer.cs">
+      <DependentUpon>FrmMonthlyDriverTimesheetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthlyMechanicTimsheetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthlyMechanicTimsheetReport.designer.cs">
+      <DependentUpon>FrmMonthlyMechanicTimsheetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdateDriverTrips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateDriverTrips.designer.cs">
+      <DependentUpon>FrmUpdateDriverTrips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeeklyDriverTimesheetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeeklyDriverTimesheetReport.designer.cs">
+      <DependentUpon>FrmWeeklyDriverTimesheetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeeklyMechanicTimesheetReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeeklyMechanicTimesheetReport.designer.cs">
+      <DependentUpon>FrmWeeklyMechanicTimesheetReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeeklyCompletedTripReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeeklyCompletedTripReport.designer.cs">
+      <DependentUpon>FrmWeeklyCompletedTripReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeeklyPlannedTripReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeeklyPlannedTripReport.designer.cs">
+      <DependentUpon>FrmWeeklyPlannedTripReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeeklyServiceCompleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeeklyServiceCompleted.designer.cs">
+      <DependentUpon>FrmWeeklyServiceCompleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeeklyServiceAppointmentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeeklyServiceAppointmentList.designer.cs">
+      <DependentUpon>FrmWeeklyServiceAppointmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSpecificServiceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSpecificServiceReport.designer.cs">
+      <DependentUpon>FrmSpecificServiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYearlyCompletedService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYearlyCompletedService.designer.cs">
+      <DependentUpon>FrmYearlyCompletedService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthlyCompletedServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthlyCompletedServices.designer.cs">
+      <DependentUpon>FrmMonthlyCompletedServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthlyCompletedTrips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthlyCompletedTrips.designer.cs">
+      <DependentUpon>FrmMonthlyCompletedTrips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServiceRequirementJobSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServiceRequirementJobSheet.Designer.cs">
+      <DependentUpon>FrmServiceRequirementJobSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPasswordRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPasswordRecovery.designer.cs">
+      <DependentUpon>FrmPasswordRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeleteVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeleteVehicle.designer.cs">
+      <DependentUpon>FrmDeleteVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdateVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateVehicle.designer.cs">
+      <DependentUpon>FrmUpdateVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVehicleReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVehicleReport.designer.cs">
+      <DependentUpon>FrmVehicleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddVehicle.Designer.cs">
+      <DependentUpon>FrmAddVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoadingScreenAfterAddedEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoadingScreenAfterAddedEmployee.Designer.cs">
+      <DependentUpon>FrmLoadingScreenAfterAddedEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateEmployee.Designer.cs">
+      <DependentUpon>FrmUpdateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdatesService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdatesService.designer.cs">
+      <DependentUpon>FrmUpdatesService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdateTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateTrip.Designer.cs">
+      <DependentUpon>FrmUpdateTrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginScreen.Designer.cs">
+      <DependentUpon>FrmLoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmSignUpSuccessful.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSignUpSuccessful.Designer.cs">
+      <DependentUpon>FrmSignUpSuccessful.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSignUp.Designer.cs">
+      <DependentUpon>FrmSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs" />
+    <Compile Include="Trip.cs" />
+    <Compile Include="Vehicle.cs" />
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddEmployee.resx">
+      <DependentUpon>FrmAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeHoursWorked.resx">
+      <DependentUpon>FrmEmployeeHoursWorked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddService.resx">
+      <DependentUpon>FrmAddService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddTrip.resx">
+      <DependentUpon>FrmAddTrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeactivateEmployee.resx">
+      <DependentUpon>FrmDeactivateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyPlannedTripReport.resx">
+      <DependentUpon>FrmDailyPlannedTripReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyServiceAppointmentListReport.resx">
+      <DependentUpon>FrmDailyServiceAppointmentListReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyCompletedTripReport.resx">
+      <DependentUpon>FrmDailyCompletedTripReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyCompletedServiceReport.resx">
+      <DependentUpon>FrmDailyCompletedServiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyMechanicTimesheetReport.resx">
+      <DependentUpon>FrmDailyMechanicTimesheetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDailyDriverTimsheetReport.resx">
+      <DependentUpon>FrmDailyDriverTimsheetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthlyDriverTimesheetReport.resx">
+      <DependentUpon>FrmMonthlyDriverTimesheetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthlyMechanicTimsheetReport.resx">
+      <DependentUpon>FrmMonthlyMechanicTimsheetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateDriverTrips.resx">
+      <DependentUpon>FrmUpdateDriverTrips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeeklyDriverTimesheetReport.resx">
+      <DependentUpon>FrmWeeklyDriverTimesheetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeeklyMechanicTimesheetReport.resx">
+      <DependentUpon>FrmWeeklyMechanicTimesheetReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeeklyCompletedTripReport.resx">
+      <DependentUpon>FrmWeeklyCompletedTripReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeeklyPlannedTripReport.resx">
+      <DependentUpon>FrmWeeklyPlannedTripReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeeklyServiceCompleted.resx">
+      <DependentUpon>FrmWeeklyServiceCompleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeeklyServiceAppointmentList.resx">
+      <DependentUpon>FrmWeeklyServiceAppointmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSpecificServiceReport.resx">
+      <DependentUpon>FrmSpecificServiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYearlyCompletedService.resx">
+      <DependentUpon>FrmYearlyCompletedService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthlyCompletedServices.resx">
+      <DependentUpon>FrmMonthlyCompletedServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthlyCompletedTrips.resx">
+      <DependentUpon>FrmMonthlyCompletedTrips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServiceRequirementJobSheet.resx">
+      <DependentUpon>FrmServiceRequirementJobSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPasswordRecovery.resx">
+      <DependentUpon>FrmPasswordRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeleteVehicle.resx">
+      <DependentUpon>FrmDeleteVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateVehicle.resx">
+      <DependentUpon>FrmUpdateVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVehicleReport.resx">
+      <DependentUpon>FrmVehicleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddVehicle.resx">
+      <DependentUpon>FrmAddVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoadingScreenAfterAddedEmployee.resx">
+      <DependentUpon>FrmLoadingScreenAfterAddedEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateEmployee.resx">
+      <DependentUpon>FrmUpdateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdatesService.resx">
+      <DependentUpon>FrmUpdatesService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateTrip.resx">
+      <DependentUpon>FrmUpdateTrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginScreen.resx">
+      <DependentUpon>FrmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FrmSignUpSuccessful.resx">
+      <DependentUpon>FrmSignUpSuccessful.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSignUp.resx">
+      <DependentUpon>FrmSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDailyPlannedTrip.rdlc" />
+    <EmbeddedResource Include="rptMonthlyDriverTimesheet.rdlc" />
+    <EmbeddedResource Include="rptMonthlyMechanicTimesheet.rdlc" />
+    <EmbeddedResource Include="rptWeeklyDriverTimesheet.rdlc" />
+    <EmbeddedResource Include="rptWeeklyMechanicTimesheet.rdlc" />
+    <EmbeddedResource Include="rptDailyDriverTimesheet.rdlc" />
+    <EmbeddedResource Include="rptDailyMechanicTimesheet.rdlc" />
+    <EmbeddedResource Include="rptWeeklyCompletedTrip.rdlc" />
+    <EmbeddedResource Include="rptWeeklyPlannedTrip.rdlc" />
+    <EmbeddedResource Include="rptWeeklyCompletedServices.rdlc" />
+    <EmbeddedResource Include="rptWeeklyServiceAppointmentList.rdlc" />
+    <EmbeddedResource Include="rptSpecificServiceReport.rdlc" />
+    <EmbeddedResource Include="rptYearlyCompletedService.rdlc" />
+    <EmbeddedResource Include="rptMonthlyCompletedService.rdlc" />
+    <EmbeddedResource Include="rptDailyCompletedService.rdlc" />
+    <EmbeddedResource Include="rptDailyServiceAppList.rdlc" />
+    <EmbeddedResource Include="rptDailyCompletedTrip.rdlc" />
+    <EmbeddedResource Include="rptDailyService.rdlc" />
+    <EmbeddedResource Include="rptMonthlyTripReport.rdlc" />
+    <EmbeddedResource Include="rptServiceJobSheet.rdlc" />
+    <EmbeddedResource Include="rptVehicle.rdlc" />
+    <None Include="dsCompletedDailyTrip.xsc">
+      <DependentUpon>dsCompletedDailyTrip.xsd</DependentUpon>
+    </None>
+    <None Include="dsCompletedDailyTrip.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCompletedDailyTrip.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsCompletedDailyTrip.xss">
+      <DependentUpon>dsCompletedDailyTrip.xsd</DependentUpon>
+    </None>
+    <None Include="dsDailyServiceAppointmentList.xsc">
+      <DependentUpon>dsDailyServiceAppointmentList.xsd</DependentUpon>
+    </None>
+    <None Include="dsDailyServiceAppointmentList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDailyServiceAppointmentList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsDailyServiceAppointmentList.xss">
+      <DependentUpon>dsDailyServiceAppointmentList.xsd</DependentUpon>
+    </None>
+    <None Include="dsDailyVehicleServiceCompleted.xsc">
+      <DependentUpon>dsDailyVehicleServiceCompleted.xsd</DependentUpon>
+    </None>
+    <None Include="dsDailyVehicleServiceCompleted.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDailyVehicleServiceCompleted.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDailyVehicleServiceCompleted.xss">
+      <DependentUpon>dsDailyVehicleServiceCompleted.xsd</DependentUpon>
+    </None>
+    <None Include="dsMonthlyCompletedVehicleService.xsc">
+      <DependentUpon>dsMonthlyCompletedVehicleService.xsd</DependentUpon>
+    </None>
+    <None Include="dsMonthlyCompletedVehicleService.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMonthlyCompletedVehicleService.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMonthlyCompletedVehicleService.xss">
+      <DependentUpon>dsMonthlyCompletedVehicleService.xsd</DependentUpon>
+    </None>
+    <None Include="dsMonthlyTrip.xsc">
+      <DependentUpon>dsMonthlyTrip.xsd</DependentUpon>
+    </None>
+    <None Include="dsMonthlyTrip.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMonthlyTrip.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsMonthlyTrip.xss">
+      <DependentUpon>dsMonthlyTrip.xsd</DependentUpon>
+    </None>
+    <None Include="dsService.xsc">
+      <DependentUpon>dsService.xsd</DependentUpon>
+    </None>
+    <None Include="dsService.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsService.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsService.xss">
+      <DependentUpon>dsService.xsd</DependentUpon>
+    </None>
+    <None Include="dsServiceCompletedYearly.xsc">
+      <DependentUpon>dsServiceCompletedYearly.xsd</DependentUpon>
+    </None>
+    <None Include="dsServiceCompletedYearly.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsServiceCompletedYearly.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsServiceCompletedYearly.xss">
+      <DependentUpon>dsServiceCompletedYearly.xsd</DependentUpon>
+    </None>
+    <None Include="dsServiceJobSheet.xsc">
+      <DependentUpon>dsServiceJobSheet.xsd</DependentUpon>
+    </None>
+    <None Include="dsServiceJobSheet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsServiceJobSheet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsServiceJobSheet.xss">
+      <DependentUpon>dsServiceJobSheet.xsd</DependentUpon>
+    </None>
+    <None Include="dsSpecificService.xsc">
+      <DependentUpon>dsSpecificService.xsd</DependentUpon>
+    </None>
+    <None Include="dsSpecificService.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSpecificService.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSpecificService.xss">
+      <DependentUpon>dsSpecificService.xsd</DependentUpon>
+    </None>
+    <None Include="dsTimesheet.xsc">
+      <DependentUpon>dsTimesheet.xsd</DependentUpon>
+    </None>
+    <None Include="dsTimesheet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTimesheet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsTimesheet.xss">
+      <DependentUpon>dsTimesheet.xsd</DependentUpon>
+    </None>
+    <None Include="dsTrip.xsc">
+      <DependentUpon>dsTrip.xsd</DependentUpon>
+    </None>
+    <None Include="dsTrip.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTrip.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsTrip.xss">
+      <DependentUpon>dsTrip.xsd</DependentUpon>
+    </None>
+    <None Include="dsVehicle.xsc">
+      <DependentUpon>dsVehicle.xsd</DependentUpon>
+    </None>
+    <None Include="dsVehicle.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVehicle.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsVehicle.xss">
+      <DependentUpon>dsVehicle.xsd</DependentUpon>
+    </None>
+    <None Include="dsVehicleServiceCompletedWeekly.xsc">
+      <DependentUpon>dsVehicleServiceCompletedWeekly.xsd</DependentUpon>
+    </None>
+    <None Include="dsVehicleServiceCompletedWeekly.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVehicleServiceCompletedWeekly.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsVehicleServiceCompletedWeekly.xss">
+      <DependentUpon>dsVehicleServiceCompletedWeekly.xsd</DependentUpon>
+    </None>
+    <None Include="dsWeeklyServiceAppointmentList.xsc">
+      <DependentUpon>dsWeeklyServiceAppointmentList.xsd</DependentUpon>
+    </None>
+    <None Include="dsWeeklyServiceAppointmentList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWeeklyServiceAppointmentList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsWeeklyServiceAppointmentList.xss">
+      <DependentUpon>dsWeeklyServiceAppointmentList.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Trucking_Company_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Important to take note of when creating new forms.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

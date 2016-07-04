@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsServiceJobSheet" targetNamespace="http://tempuri.org/dsServiceJobSheet.xsd" xmlns:mstns="http://tempuri.org/dsServiceJobSheet.xsd" xmlns="http://tempuri.org/dsServiceJobSheet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TruckingCompanyConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TruckingCompanyConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Trucking_Company.Properties.Settings.GlobalReference.Default.TruckingCompanyConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ServiceJobsheetTableAdapter" GeneratorDataComponentClassName="ServiceJobsheetTableAdapter" Name="ServiceJobsheet" UserDataComponentName="ServiceJobsheetTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TruckingCompanyConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT VS.VEHICLE_NUM, Vs.SERVICE_CODE , Vs.SERVICE_APPOINTMENT_DATE_AND_TIME, S.SERVICE_TYPE, S.WORK_NEEDED 
+FROM VehicleService VS 
+		INNER JOIN Service S
+	ON VS.SERVICE_CODE = S.SERVICE_CODE </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VEHICLE_NUM" DataSetColumn="VEHICLE_NUM" />
+              <Mapping SourceColumn="SERVICE_CODE" DataSetColumn="SERVICE_CODE" />
+              <Mapping SourceColumn="SERVICE_APPOINTMENT_DATE_AND_TIME" DataSetColumn="SERVICE_APPOINTMENT_DATE_AND_TIME" />
+              <Mapping SourceColumn="SERVICE_TYPE" DataSetColumn="SERVICE_TYPE" />
+              <Mapping SourceColumn="WORK_NEEDED" DataSetColumn="WORK_NEEDED" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsServiceJobSheet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsServiceJobSheet" msprop:Generator_UserDSName="dsServiceJobSheet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ServiceJobsheet" msprop:Generator_TableClassName="ServiceJobsheetDataTable" msprop:Generator_TableVarName="tableServiceJobsheet" msprop:Generator_TablePropName="ServiceJobsheet" msprop:Generator_RowDeletingName="ServiceJobsheetRowDeleting" msprop:Generator_RowChangingName="ServiceJobsheetRowChanging" msprop:Generator_RowEvHandlerName="ServiceJobsheetRowChangeEventHandler" msprop:Generator_RowDeletedName="ServiceJobsheetRowDeleted" msprop:Generator_UserTableName="ServiceJobsheet" msprop:Generator_RowChangedName="ServiceJobsheetRowChanged" msprop:Generator_RowEvArgName="ServiceJobsheetRowChangeEvent" msprop:Generator_RowClassName="ServiceJobsheetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VEHICLE_NUM" msprop:Generator_ColumnVarNameInTable="columnVEHICLE_NUM" msprop:Generator_ColumnPropNameInRow="VEHICLE_NUM" msprop:Generator_ColumnPropNameInTable="VEHICLE_NUMColumn" msprop:Generator_UserColumnName="VEHICLE_NUM">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SERVICE_CODE" msprop:Generator_ColumnVarNameInTable="columnSERVICE_CODE" msprop:Generator_ColumnPropNameInRow="SERVICE_CODE" msprop:Generator_ColumnPropNameInTable="SERVICE_CODEColumn" msprop:Generator_UserColumnName="SERVICE_CODE" type="xs:int" />
+              <xs:element name="SERVICE_APPOINTMENT_DATE_AND_TIME" msprop:Generator_ColumnVarNameInTable="columnSERVICE_APPOINTMENT_DATE_AND_TIME" msprop:Generator_ColumnPropNameInRow="SERVICE_APPOINTMENT_DATE_AND_TIME" msprop:Generator_ColumnPropNameInTable="SERVICE_APPOINTMENT_DATE_AND_TIMEColumn" msprop:Generator_UserColumnName="SERVICE_APPOINTMENT_DATE_AND_TIME" type="xs:dateTime" />
+              <xs:element name="SERVICE_TYPE" msprop:Generator_ColumnVarNameInTable="columnSERVICE_TYPE" msprop:Generator_ColumnPropNameInRow="SERVICE_TYPE" msprop:Generator_ColumnPropNameInTable="SERVICE_TYPEColumn" msprop:Generator_UserColumnName="SERVICE_TYPE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WORK_NEEDED" msprop:Generator_ColumnVarNameInTable="columnWORK_NEEDED" msprop:Generator_ColumnPropNameInRow="WORK_NEEDED" msprop:Generator_ColumnPropNameInTable="WORK_NEEDEDColumn" msprop:Generator_UserColumnName="WORK_NEEDED">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ServiceJobsheet" />
+      <xs:field xpath="mstns:VEHICLE_NUM" />
+      <xs:field xpath="mstns:SERVICE_CODE" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
